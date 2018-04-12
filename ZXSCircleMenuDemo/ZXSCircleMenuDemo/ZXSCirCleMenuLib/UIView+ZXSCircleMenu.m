@@ -1,7 +1,6 @@
 //
 //  UIView+ZXSCircleMenu.m
-//  CBCL
-//  ZXSCircleMenuDemo
+//  ZXSCircleMenuLib(https://github.com/CoderZXS/ZXSCircleMenu)
 //
 //  Created by CoderZXS on 2016/4/12.
 //  Copyright © 2016年 CoderZXS. All rights reserved.
