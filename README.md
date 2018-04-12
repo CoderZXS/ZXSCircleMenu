@@ -1,5 +1,5 @@
 # ZXSCircleMenu
-##中文：
+## 中文：
 * ZXSCircleMenu是一个优雅的圆形菜单
 * [Objective-C UI库是@CoderZXS实现和@Ramotion设计](https://github.com/CoderZXS/ZXSCircleMenu)
 * [Swift UI 库是@Ramotion设计实现](https://github.com/Ramotion/circle-menu)
@@ -9,7 +9,7 @@
 * 欢迎交流讨论，一起学习，一起进步！Hello World！^_^^_^
 * 如果您还觉得不错，请点个星，辛苦啦！谢谢。。。
 
-##English:
+## English:
 * ZXSCircleMenu is an elegant circular menu
 * Objective-C UI library implemented by @CoderZXS and designed by @Ramotion
 * Swift UI library made by @Ramotion
