@@ -13,10 +13,10 @@
 		BB9B5B31207F3A7000F0663E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB9B5B30207F3A7000F0663E /* Assets.xcassets */; };
 		BB9B5B34207F3A7000F0663E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB9B5B32207F3A7000F0663E /* LaunchScreen.storyboard */; };
 		BB9B5B37207F3A7000F0663E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9B5B36207F3A7000F0663E /* main.m */; };
-		BB9B5B46207F3BED00F0663E /* UIView+ZXSCircleMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9B5B41207F3BED00F0663E /* UIView+ZXSCircleMenu.m */; };
-		BB9B5B47207F3BED00F0663E /* ZXSCircleMenuLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9B5B42207F3BED00F0663E /* ZXSCircleMenuLoader.m */; };
-		BB9B5B48207F3BED00F0663E /* ZXSCircleMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9B5B43207F3BED00F0663E /* ZXSCircleMenu.m */; };
-		BB9B5B49207F3BED00F0663E /* ZXSCircleMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9B5B44207F3BED00F0663E /* ZXSCircleMenuButton.m */; };
+		BB9B743C207F653500CB98AD /* UIView+ZXSCircleMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9B7437207F653500CB98AD /* UIView+ZXSCircleMenu.m */; };
+		BB9B743D207F653500CB98AD /* ZXSCircleMenuLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9B7438207F653500CB98AD /* ZXSCircleMenuLoader.m */; };
+		BB9B743E207F653500CB98AD /* ZXSCircleMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9B7439207F653500CB98AD /* ZXSCircleMenu.m */; };
+		BB9B743F207F653500CB98AD /* ZXSCircleMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9B743A207F653500CB98AD /* ZXSCircleMenuButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,14 +30,14 @@
 		BB9B5B33207F3A7000F0663E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB9B5B35207F3A7000F0663E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB9B5B36207F3A7000F0663E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BB9B5B3E207F3BED00F0663E /* ZXSCircleMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXSCircleMenu.h; sourceTree = "<group>"; };
-		BB9B5B3F207F3BED00F0663E /* ZXSCircleMenuLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXSCircleMenuLoader.h; sourceTree = "<group>"; };
-		BB9B5B40207F3BED00F0663E /* ZXSCircleMenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXSCircleMenuButton.h; sourceTree = "<group>"; };
-		BB9B5B41207F3BED00F0663E /* UIView+ZXSCircleMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZXSCircleMenu.m"; sourceTree = "<group>"; };
-		BB9B5B42207F3BED00F0663E /* ZXSCircleMenuLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXSCircleMenuLoader.m; sourceTree = "<group>"; };
-		BB9B5B43207F3BED00F0663E /* ZXSCircleMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXSCircleMenu.m; sourceTree = "<group>"; };
-		BB9B5B44207F3BED00F0663E /* ZXSCircleMenuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXSCircleMenuButton.m; sourceTree = "<group>"; };
-		BB9B5B45207F3BED00F0663E /* UIView+ZXSCircleMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZXSCircleMenu.h"; sourceTree = "<group>"; };
+		BB9B7434207F653500CB98AD /* ZXSCircleMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXSCircleMenu.h; sourceTree = "<group>"; };
+		BB9B7435207F653500CB98AD /* ZXSCircleMenuLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXSCircleMenuLoader.h; sourceTree = "<group>"; };
+		BB9B7436207F653500CB98AD /* ZXSCircleMenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXSCircleMenuButton.h; sourceTree = "<group>"; };
+		BB9B7437207F653500CB98AD /* UIView+ZXSCircleMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZXSCircleMenu.m"; sourceTree = "<group>"; };
+		BB9B7438207F653500CB98AD /* ZXSCircleMenuLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXSCircleMenuLoader.m; sourceTree = "<group>"; };
+		BB9B7439207F653500CB98AD /* ZXSCircleMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXSCircleMenu.m; sourceTree = "<group>"; };
+		BB9B743A207F653500CB98AD /* ZXSCircleMenuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXSCircleMenuButton.m; sourceTree = "<group>"; };
+		BB9B743B207F653500CB98AD /* UIView+ZXSCircleMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZXSCircleMenu.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +70,7 @@
 		BB9B5B26207F3A6F00F0663E /* ZXSCircleMenuDemo */ = {
 			isa = PBXGroup;
 			children = (
-				BB9B5B3D207F3BED00F0663E /* ZXSCirCleMenuLib */,
+				BB9B7433207F653500CB98AD /* ZXSCirCleMenu */,
 				BB9B5B27207F3A6F00F0663E /* AppDelegate.h */,
 				BB9B5B28207F3A6F00F0663E /* AppDelegate.m */,
 				BB9B5B2A207F3A6F00F0663E /* ViewController.h */,
@@ -84,19 +84,19 @@
 			path = ZXSCircleMenuDemo;
 			sourceTree = "<group>";
 		};
-		BB9B5B3D207F3BED00F0663E /* ZXSCirCleMenuLib */ = {
+		BB9B7433207F653500CB98AD /* ZXSCirCleMenu */ = {
 			isa = PBXGroup;
 			children = (
-				BB9B5B3E207F3BED00F0663E /* ZXSCircleMenu.h */,
-				BB9B5B43207F3BED00F0663E /* ZXSCircleMenu.m */,
-				BB9B5B40207F3BED00F0663E /* ZXSCircleMenuButton.h */,
-				BB9B5B44207F3BED00F0663E /* ZXSCircleMenuButton.m */,
-				BB9B5B3F207F3BED00F0663E /* ZXSCircleMenuLoader.h */,
-				BB9B5B42207F3BED00F0663E /* ZXSCircleMenuLoader.m */,
-				BB9B5B45207F3BED00F0663E /* UIView+ZXSCircleMenu.h */,
-				BB9B5B41207F3BED00F0663E /* UIView+ZXSCircleMenu.m */,
+				BB9B7434207F653500CB98AD /* ZXSCircleMenu.h */,
+				BB9B7439207F653500CB98AD /* ZXSCircleMenu.m */,
+				BB9B7436207F653500CB98AD /* ZXSCircleMenuButton.h */,
+				BB9B743A207F653500CB98AD /* ZXSCircleMenuButton.m */,
+				BB9B7435207F653500CB98AD /* ZXSCircleMenuLoader.h */,
+				BB9B7438207F653500CB98AD /* ZXSCircleMenuLoader.m */,
+				BB9B743B207F653500CB98AD /* UIView+ZXSCircleMenu.h */,
+				BB9B7437207F653500CB98AD /* UIView+ZXSCircleMenu.m */,
 			);
-			path = ZXSCirCleMenuLib;
+			path = ZXSCirCleMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,11 +171,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB9B5B2C207F3A6F00F0663E /* ViewController.m in Sources */,
-				BB9B5B46207F3BED00F0663E /* UIView+ZXSCircleMenu.m in Sources */,
-				BB9B5B49207F3BED00F0663E /* ZXSCircleMenuButton.m in Sources */,
-				BB9B5B48207F3BED00F0663E /* ZXSCircleMenu.m in Sources */,
+				BB9B743C207F653500CB98AD /* UIView+ZXSCircleMenu.m in Sources */,
+				BB9B743F207F653500CB98AD /* ZXSCircleMenuButton.m in Sources */,
+				BB9B743E207F653500CB98AD /* ZXSCircleMenu.m in Sources */,
 				BB9B5B37207F3A7000F0663E /* main.m in Sources */,
-				BB9B5B47207F3BED00F0663E /* ZXSCircleMenuLoader.m in Sources */,
+				BB9B743D207F653500CB98AD /* ZXSCircleMenuLoader.m in Sources */,
 				BB9B5B29207F3A6F00F0663E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
