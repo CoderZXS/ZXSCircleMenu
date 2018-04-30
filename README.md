@@ -1,22 +1,59 @@
 # ZXSCircleMenu
-## 中文：
-* ZXSCircleMenu是一个优雅的圆形菜单
-* [Objective-C UI库是@CoderZXS实现和@Ramotion设计](https://github.com/CoderZXS/ZXSCircleMenu)
-* [Swift UI 库是@Ramotion设计实现](https://github.com/Ramotion/circle-menu)
-* [使用介绍及详情请访问](https://dev.ramotion.com/)
-* Objective-C UI库只会根据Swift UI 库更新而更新，当Objective-C UI库与Swift UI 库代码出现不一时，请与我联系更改。谢谢！
-* 本人：张学顺 网名：CoderZXS 微信：MJ_1252935734 QQ：1252935734
-* 欢迎交流讨论，一起学习，一起进步！Hello World！^_^^_^
-* 如果您还觉得不错，请点个星，辛苦啦！谢谢。。。
 
-## English:
-* ZXSCircleMenu is an elegant circular menu
-* Objective-C UI library implemented by @CoderZXS and designed by @Ramotion
-* Swift UI library made by @Ramotion
-* The Objective-C UI library will only be updated based on the Swift UI library update. When the Objective-C UI library does not appear with the Swift UI library code, please contact me to change. Thank you!
-* I: Zhang Xueshun Net name: CoderZXS WeChat: MJ_1252935734 QQ:1252935734
-* Welcome to discuss, learn together, progress together! Hello World! ^_^^_^
-* If you still feel good, please take a star and work hard! Thank you. . .
+
+介绍
+--------
+- ZXSCircleMenu是一个优雅的圆形菜单
+- [Objective-C UI库(https://github.com/CoderZXS/ZXSCircleMenu)是模仿[Swift UI 库](https://github.com/Ramotion/circle-menu)实现的，所以 Objective-C UI库只会根据Swift UI 库更新而更新
+
+
+使用
+--------
+- 添加菜单按钮
+```Objective-C
+    ZXSCircleMenu *button = [[ZXSCircleMenu alloc] zxs_initWithFrame:CGRectMake(150, 200, 50, 50) normalIcon:@"icon_menu" selectedIcon:@"icon_close" buttonsCount:4 duration:4 distance:120];
+    button.backgroundColor = [UIColor lightGrayColor];
+    button.delegate = self;
+    button.layer.cornerRadius = button.frame.size.width * 0.5;
+    [self.view addSubview:button];
+```
+
+- 实现菜单按钮代理方法
+```Objective-C
+    #pragma mark - ZXSCircleMenuDelegate
+    - (void)zxs_circleMenu:(ZXSCircleMenu *)circleMenu buttonWillDisplay:(ZXSCircleMenuButton *)button atIndex:(NSUInteger)index {
+
+    NSLog(@"buttonWillDisplay:%zd",index);
+    NSDictionary *tempdict = self.buttonArray[index];
+    button.backgroundColor = (UIColor *)[tempdict valueForKey:@"color"];
+    [button setImage:[UIImage imageNamed:[tempdict valueForKey:@"icon"]] forState:UIControlStateNormal];
+    button.tintColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:0.3];
+    }
+
+    - (void)zxs_circleMenu:(ZXSCircleMenu *)circleMenu buttonWillSelected:(ZXSCircleMenuButton *)button atIndex:(NSUInteger)index {
+    NSLog(@"buttonWillSelected:%zd",index);
+    }
+
+    - (void)zxs_circleMenu:(ZXSCircleMenu *)circleMenu buttonDidSelected:(ZXSCircleMenuButton *)button atIndex:(NSUInteger)index {
+    NSLog(@"buttonDidSelected:%zd",index);
+    }
+
+    - (void)zxs_menuCollapsed:(ZXSCircleMenu *)circleMenu {
+    NSLog(@"zxs_menuCollapsed");
+    }
+```
+
+
+效果
+--------
+![ZXSCircleMenu](https://github.com/CoderZXS/ZXSCircleMenu/blob/master/ZXSCircleMenu.gif)
+
+
+结后语
+--------
+- 如果你觉得不错，请点个星星吧，辛苦啦！谢谢。。。
+- QQ:1252935734 你要是对本框架有什么建议，欢迎加我QQ，希望与小伙伴们一起学习、成长！！！
+
 
 
 

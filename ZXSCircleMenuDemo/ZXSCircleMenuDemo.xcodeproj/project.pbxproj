@@ -88,13 +88,13 @@
 			isa = PBXGroup;
 			children = (
 				BB9B7441207F664000CB98AD /* ZXSCircleMenu.h */,
-				BB9B7442207F664000CB98AD /* ZXSCircleMenuLoader.h */,
-				BB9B7443207F664000CB98AD /* ZXSCircleMenuButton.h */,
-				BB9B7444207F664000CB98AD /* UIView+ZXSCircleMenu.m */,
-				BB9B7445207F664000CB98AD /* ZXSCircleMenuLoader.m */,
 				BB9B7446207F664000CB98AD /* ZXSCircleMenu.m */,
+				BB9B7443207F664000CB98AD /* ZXSCircleMenuButton.h */,
 				BB9B7447207F664000CB98AD /* ZXSCircleMenuButton.m */,
+				BB9B7442207F664000CB98AD /* ZXSCircleMenuLoader.h */,
+				BB9B7445207F664000CB98AD /* ZXSCircleMenuLoader.m */,
 				BB9B7448207F664000CB98AD /* UIView+ZXSCircleMenu.h */,
+				BB9B7444207F664000CB98AD /* UIView+ZXSCircleMenu.m */,
 			);
 			path = ZXSCircleMenu;
 			sourceTree = "<group>";

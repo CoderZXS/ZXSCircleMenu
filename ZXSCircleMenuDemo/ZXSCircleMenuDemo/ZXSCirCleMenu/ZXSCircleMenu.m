@@ -1,6 +1,6 @@
 //
 //  ZXSCircleMenu.m
-//  ZXSCircleMenuLib(https://github.com/CoderZXS/ZXSCircleMenu)
+//  ZXSCircleMenu(https://github.com/CoderZXS/ZXSCircleMenu)
 //
 //  Created by CoderZXS on 2016/4/12.
 //  Copyright © 2016年 CoderZXS. All rights reserved.
@@ -14,21 +14,14 @@
 @interface ZXSCircleMenu()
 
 @property (strong, nonatomic) NSMutableArray *buttons;
-@property (weak, nonatomic) UIView *platform;          // 平台view
+@property (weak, nonatomic) UIView *platform;                         // 平台view
 @property (strong, nonatomic) UIImageView *customNormalIconView;
 @property (strong, nonatomic) UIImageView *customSelectedIconView;
-@property (assign, nonatomic) BOOL isBounceAnimating;  //  反弹动画
+@property (assign, nonatomic) BOOL isBounceAnimating;                 //  反弹动画
 
 @end
 
 @implementation ZXSCircleMenu
-
-- (NSMutableArray *)buttons {
-    if (nil == _buttons) {
-        _buttons = [NSMutableArray array];
-    }
-    return _buttons;
-}
 
 /**
  初始化并返回一个圆形菜单对象。
@@ -61,6 +54,7 @@
         self.endAngle = 360;
         self.subButtonsRadius = frame.size.width * 0.5;
         self.isBounceAnimating = NO;
+        self.buttons = [NSMutableArray array];
         
         [self zxs_commonInit];
     }
@@ -79,6 +73,7 @@
         self.endAngle = 360;
         self.subButtonsRadius = self.frame.size.width * 0.5;
         self.isBounceAnimating = NO;
+        self.buttons = [NSMutableArray array];
         
         [self zxs_commonInit];
     }
@@ -164,6 +159,7 @@
     NSMutableArray *buttons = [NSMutableArray array];
     CGFloat step = [self zxs_getArcStep];
     for (NSInteger i = 0; i < self.buttonsCount; i++) {
+        
         CGFloat angle = self.startAngle + i * step;
         CGFloat distance = self.bounds.size.height * 0.5;
         CGSize buttonSize;
@@ -274,6 +270,7 @@
     
     // 检查当前是否有条件允许显示按钮
     if ([self zxs_buttonsIsShown] == NO) {
+        
         UIView *platform = [self zxs_createPlatform];
         // 清空先前添加的按钮,然后添加新按钮
         [self.buttons removeAllObjects];
